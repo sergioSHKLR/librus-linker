@@ -3,16 +3,28 @@
 * **EN:** [sergioSHKLR/librus-linker](https://github.com/sergioSHKLR/librus-linker)
 * **PT:** [sergioSHKLR/librus-linker](https://github.com/sergioSHKLR/librus-linker)
 
-## 🇺🇸 Technical Overview
-An automated node/script-based cross-reference utility designed to process raw markdown files, scan for targeted reference keys, and inject programmatic anchor tags/deep links between related texts within the static content build pipeline.
+## 🇺🇸 Overview
+Automated cross-reference engine and provider link injector for the **Librus** ecosystem content pipeline.
 
-### Usage
-Integrated directly into the upstream pre-build sequence to parse markdown assets and resolve relationship mappings prior to final site compilation.
+### Role in the Ecosystem
+* **librus-shell:** SPA, flavors, PWA engine
+* **librus-linker:** Provider link injection on content artifacts (this repo)
+* **doutrina-content:** Editorial source (MD / QA)
+* **doutrina / centro:** Published site hosts
+
+### Technical Overview
+`librus-linker` acts as the pre-build processing pipeline utility that scans raw Markdown files and structured content artifacts to intelligently inject automated cross-references, deep links, and citation mappings.
 
 ---
 
-## 🇧🇷 Visão Técnica
-Um utilitário automatizado de referências cruzadas em script/Node projetado para processar arquivos markdown brutos, varrer chaves de referência direcionadas e injetar *tags* de âncora programáticas e links diretos entre textos relacionados no fluxo de compilação estática.
+## 🇧🇷 Visão Geral
+Motor automatizado de referências cruzadas e injetor de links de provedores para o pipeline de conteúdo do ecossistema **Librus**.
 
-### Uso
-Integrado diretamente na sequência de pré-compilação para analisar os ativos em markdown e resolver mapeamentos de relacionamento antes da geração final do site.
+### Papel no Ecossistema
+* **librus-shell:** SPA, sabores, motor PWA
+* **librus-linker:** Injeção de links de provedores em artefatos de conteúdo (este repositório)
+* **doutrina-content:** Fonte editorial (MD / QA)
+* **doutrina / centro:** Hosts de sites publicados
+
+### Visão Técnica
+O `librus-linker` atua como o utilitário de pipeline de processamento pré-compilação que examina arquivos Markdown brutos e artefatos de conteúdo estruturados para injetar de forma inteligente referências cruzadas automatizadas, links diretos e mapeamentos de citação.
