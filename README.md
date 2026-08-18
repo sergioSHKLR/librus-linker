@@ -1,8 +1,5 @@
 # 🔗 Librus Linker / Linkador Librus
 
-* **EN:** [sergioSHKLR/librus-linker](https://github.com/sergioSHKLR/librus-linker)
-* **PT:** [sergioSHKLR/librus-linker](https://github.com/sergioSHKLR/librus-linker)
-
 ## 🇺🇸 Overview & Intent
 `librus-linker` is an automated pre-build processing utility designed to scan raw markdown files, identify targeted reference keys, and inject deep links and cross-references across the Librus ecosystem content pipeline. Its primary intent is to eliminate manual curation overhead, ensuring uniform citation mapping and robust inter-textual linking for digital editions of historical literature.
 
