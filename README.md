@@ -1,29 +1,18 @@
-# librus-linker
+# 🔗 Librus Linker / Linkador Librus
 
-Provider **link injection** for LIBRUS reader artifacts.
+* **EN:** [sergioSHKLR/librus-linker](https://github.com/sergioSHKLR/librus-linker)
+* **PT:** [sergioSHKLR/librus-linker](https://github.com/sergioSHKLR/librus-linker)
 
-Takes built content from **`doutrina-content`** (and later other `*-content` shelves) and enriches HTML/MD with provider anchors (Luz, wiki/encyc, dict, maps, Bible, Kardecpedia, …). Output is consumed by **`librus-shell`** at assemble/deploy time.
+## 🇺🇸 Technical Overview
+An automated node/script-based cross-reference utility designed to process raw markdown files, scan for targeted reference keys, and inject programmatic anchor tags/deep links between related texts within the static content build pipeline.
 
-This repo owns **tooling you wrote**, not the book texts.
+### Usage
+Integrated directly into the upstream pre-build sequence to parse markdown assets and resolve relationship mappings prior to final site compilation.
 
-## Pipeline
+---
 
-```text
-doutrina-content  →  (artifact A)
-librus-linker     →  (artifact B, with data-link-* / provider markup)
-librus-shell      →  SPA + selective books → dist / PWA
-```
+## 🇧🇷 Visão Técnica
+Um utilitário automatizado de referências cruzadas em script/Node projetado para processar arquivos markdown brutos, varrer chaves de referência direcionadas e injetar *tags* de âncora programáticas e links diretos entre textos relacionados no fluxo de compilação estática.
 
-## Status
-
-Scaffold only — injection scripts and contracts land here when split from ad-hoc tooling.
-
-## Repo map
-
-| Repo | Role |
-|------|------|
-| **librus-shell** | SPA, flavors, PWA |
-| **librus-linker** | This repo — link injection |
-| **doutrina-content** | Editorial source (MD / QA) |
-| **librus** / **doutrina** | Published site hosts (`dist` only) |
-| `center-*` | Center manual + `flavor.json` |
+### Uso
+Integrado diretamente na sequência de pré-compilação para analisar os ativos em markdown e resolver mapeamentos de relacionamento antes da geração final do site.
