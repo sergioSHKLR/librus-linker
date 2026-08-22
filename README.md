@@ -71,6 +71,10 @@ doutrina-content  →  librus-linker  →  librus-shell  →  host Pages
 2. File issues with example passages and expected provider.  
 3. Help port one-shot scripts into a repeatable CLI with tests.  
 
+## 🏅 Credits
+
+1. See [CREDITS.md](./CREDITS.md) — Sergio SHKLR (lead, git metrics) · Grok / xAI (assisted docs).  
+
 ---
 
 # 🇧🇷 Português — Etapa 2 de 4
@@ -115,3 +119,7 @@ Recebe artefatos de **`doutrina-content`** e enriquece com âncoras de provedore
 1. Propor regras de cobertura de provedores.  
 2. Abrir issues com trechos e provedor esperado.  
 3. Ajudar a transformar scripts one-shot em CLI testável.  
+
+## 🏅 Créditos
+
+1. Ver [CREDITS.md](./CREDITS.md) — Sergio SHKLR (líder, métricas git) · Grok / xAI (docs assistidos).  
