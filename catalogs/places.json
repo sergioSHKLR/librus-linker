@@ -1,0 +1,559 @@
+[
+  {
+    "query": "África",
+    "title": "África",
+    "lemmas": [
+      "África"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "query": "Alemanha",
+    "title": "Alemanha",
+    "lemmas": [
+      "Alemanha"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "query": "Alpes",
+    "title": "Alpes",
+    "lemmas": [
+      "Alpes"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "query": "América",
+    "title": "América",
+    "lemmas": [
+      "América"
+    ],
+    "books": [
+      "ceu",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "query": "Ásia",
+    "title": "Ásia",
+    "lemmas": [
+      "Ásia"
+    ],
+    "books": [
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "query": "Babilônia",
+    "title": "Babilônia",
+    "lemmas": [
+      "Babilônia"
+    ],
+    "books": [
+      "ceu",
+      "ese"
+    ]
+  },
+  {
+    "query": "Belém",
+    "title": "Belém",
+    "lemmas": [
+      "Belém"
+    ],
+    "books": [
+      "ceu",
+      "gen"
+    ]
+  },
+  {
+    "query": "Bordeaux",
+    "title": "Bordeaux",
+    "lemmas": [
+      "Bordeaux",
+      "bordeaux"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "query": "Brasil",
+    "title": "Brasil",
+    "lemmas": [
+      "Brasil"
+    ],
+    "books": [
+      "lde"
+    ]
+  },
+  {
+    "query": "Canadá",
+    "title": "Canadá",
+    "lemmas": [
+      "Canadá"
+    ],
+    "books": [
+      "ceu"
+    ]
+  },
+  {
+    "query": "China",
+    "title": "China",
+    "lemmas": [
+      "China"
+    ],
+    "books": [
+      "ldm"
+    ]
+  },
+  {
+    "query": "Constantinopla",
+    "title": "Constantinopla",
+    "lemmas": [
+      "Constantinopla"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "query": "Egito",
+    "title": "Egito",
+    "lemmas": [
+      "Egito"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "query": "Espanha",
+    "title": "Espanha",
+    "lemmas": [
+      "Espanha"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "query": "Europa",
+    "title": "Europa",
+    "lemmas": [
+      "Europa"
+    ],
+    "books": [
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "query": "Florença",
+    "title": "Florença",
+    "lemmas": [
+      "Florença"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "query": "França",
+    "title": "França",
+    "lemmas": [
+      "França",
+      "franca"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "query": "Galileia",
+    "title": "Galileia",
+    "lemmas": [
+      "Galileia"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "query": "Genebra",
+    "title": "Genebra",
+    "lemmas": [
+      "Genève",
+      "Genebra"
+    ],
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "query": "Holanda",
+    "title": "Holanda",
+    "lemmas": [
+      "Holanda"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "query": "Índia",
+    "title": "Índia",
+    "lemmas": [
+      "Índia"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "query": "Inglaterra",
+    "title": "Inglaterra",
+    "lemmas": [
+      "Inglaterra"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "query": "Itália",
+    "title": "Itália",
+    "lemmas": [
+      "Itália"
+    ],
+    "books": [
+      "ceu",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "query": "Japão",
+    "title": "Japão",
+    "lemmas": [
+      "Japão"
+    ],
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "query": "Jericó",
+    "title": "Jericó",
+    "lemmas": [
+      "Jericó"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "query": "Jerusalém",
+    "title": "Jerusalém",
+    "lemmas": [
+      "Jerusalém"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "query": "Judeia",
+    "title": "Judeia",
+    "lemmas": [
+      "Judeia"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "query": "Lisboa",
+    "title": "Lisboa",
+    "lemmas": [
+      "Lisboa"
+    ],
+    "books": [
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "query": "Londres",
+    "title": "Londres",
+    "lemmas": [
+      "Londres"
+    ],
+    "books": [
+      "ldm"
+    ]
+  },
+  {
+    "query": "Lyon",
+    "title": "Lyon",
+    "lemmas": [
+      "Lyon"
+    ],
+    "books": [
+      "ceu",
+      "ese"
+    ]
+  },
+  {
+    "query": "Mar Mediterrâneo",
+    "title": "Mar Mediterrâneo",
+    "lemmas": [
+      "Mar Mediterrâneo",
+      "Mediterrâneo"
+    ],
+    "books": [
+      "ceu"
+    ]
+  },
+  {
+    "query": "Mar Morto",
+    "title": "Mar Morto",
+    "lemmas": [
+      "Mar Morto"
+    ],
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "query": "Marselha",
+    "title": "Marselha",
+    "lemmas": [
+      "Marselha"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "query": "México",
+    "title": "México",
+    "lemmas": [
+      "México"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "query": "Montmartre",
+    "title": "Montmartre",
+    "lemmas": [
+      "Montmartre"
+    ],
+    "books": [
+      "ceu",
+      "gen"
+    ]
+  },
+  {
+    "query": "Moscou",
+    "title": "Moscou",
+    "lemmas": [
+      "Moscou"
+    ],
+    "books": [
+      "ceu"
+    ]
+  },
+  {
+    "query": "Nazaré",
+    "title": "Nazaré",
+    "lemmas": [
+      "Nazaré"
+    ],
+    "books": [
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "query": "Oceano Atlântico",
+    "title": "Oceano Atlântico",
+    "lemmas": [
+      "Oceano Atlântico",
+      "Atlântico"
+    ],
+    "books": [
+      "ldm"
+    ]
+  },
+  {
+    "query": "Ocidente",
+    "title": "Ocidente",
+    "lemmas": [
+      "Ocidente",
+      "ocidente"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "query": "Oriente",
+    "title": "Oriente",
+    "lemmas": [
+      "Oriente",
+      "oriente"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "query": "Palestina",
+    "title": "Palestina",
+    "lemmas": [
+      "Palestina"
+    ],
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "query": "Paris",
+    "title": "Paris",
+    "lemmas": [
+      "Paris"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "query": "Rio de Janeiro",
+    "title": "Rio de Janeiro",
+    "lemmas": [
+      "Rio de Janeiro"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "query": "Rio Jordão",
+    "title": "Rio Jordão",
+    "lemmas": [
+      "Rio Jordão",
+      "Jordão"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "query": "Rio Nilo",
+    "title": "Rio Nilo",
+    "lemmas": [
+      "Rio Nilo",
+      "Nilo"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "query": "Rio Sena",
+    "title": "Rio Sena",
+    "lemmas": [
+      "Rio Sena",
+      "Sena"
+    ],
+    "books": [
+      "ceu"
+    ]
+  },
+  {
+    "query": "Roma",
+    "title": "Roma",
+    "lemmas": [
+      "Roma"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "query": "Rússia",
+    "title": "Rússia",
+    "lemmas": [
+      "Rússia"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "query": "São Petersburgo",
+    "title": "São Petersburgo",
+    "lemmas": [
+      "São Petersburgo"
+    ],
+    "books": [
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "query": "Toulouse",
+    "title": "Toulouse",
+    "lemmas": [
+      "Toulouse"
+    ],
+    "books": [
+      "ceu"
+    ]
+  }
+]

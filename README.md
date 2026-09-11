@@ -12,20 +12,22 @@
    3. ⚙️ [What this repo owns](#️-what-this-repo-owns)
    4. 📥 [Inputs / outputs](#-inputs--outputs)
    5. 🚧 [Status](#-status)
-   6. 🤝 [How to help](#-how-to-help)
+   6. 📐 [Methodology](#-methodology)
+   7. 🤝 [How to help](#-how-to-help)
 2. 🇧🇷 [Português](#-português--etapa-2-de-4)
    1. 🎯 [Público](#-público)
    2. 🗺️ [Posição no pipeline](#-posição-no-pipeline)
    3. ⚙️ [O que este repo possui](#️-o-que-este-repo-possui)
    4. 📥 [Entradas / saídas](#-entradas--saídas)
    5. 🚧 [Estado](#-estado)
-   6. 🤝 [Como ajudar](#-como-ajudar)
+   6. 📐 [Metodologia](#-metodologia)
+   7. 🤝 [Como ajudar](#-como-ajudar)
 
 ---
 
 # 🇺🇸 English — Build step 2 of 4
 
-Takes content artifacts from **`doutrina-content`** and enriches them with provider anchors (`data-link-provider`, `data-link-interest`, …). The shell reads those anchors at runtime.
+Takes content artifacts from **`doutrina-content`** and enriches them with provider anchors (`data-link-provider`, …). The shell reads those anchors at runtime.
 
 ## 🎯 Audience
 
@@ -62,8 +64,15 @@ doutrina-content  →  librus-linker  →  librus-shell  →  host Pages
 ## 🚧 Status
 
 1. Scaffold and pipeline contract are documented here.  
-2. Injection scripts continue to land as they are split out of ad-hoc tooling.  
-3. Until scripts are fully in-repo, treat linked books in `librus-shell` as the working consumer of injection output.  
+2. Provider rules: [METHODOLOGY.md](./METHODOLOGY.md) (Luz → wiki → dict → Bible cites; Kardecpedia off-shelf only).  
+3. Injection scripts continue to land as they are split out of ad-hoc tooling.  
+4. Restamp: `python3 scripts/restamp.py` (Luz → map → wiki → capped dict; Bible cites). Consumes `catalogs/*.json` and writes `librus-shell/public/books/{lde,ldm,ese,ceu,gen}`.  
+
+## 📐 Methodology
+
+Rules live in [METHODOLOGY.md](./METHODOLOGY.md): two packs (`general` / `spiritism`); Luz catalog longest-match first, then Wikipedia, then capped Wiktionary; Bible only on `.bible-cite` verse tokens; Kardecpedia only for titles outside the five featured books.
+
+Catalogs in `catalogs/`: `luz-articles.json`, `wiki-allowlist.json` (seeded from current stamps), `places.json` (toponyms pulled out of those stamps).
 
 ## 🤝 How to help
 
@@ -79,7 +88,7 @@ doutrina-content  →  librus-linker  →  librus-shell  →  host Pages
 
 # 🇧🇷 Português — Etapa 2 de 4
 
-Recebe artefatos de **`doutrina-content`** e enriquece com âncoras de provedores (`data-link-provider`, `data-link-interest`, …). O shell lê essas âncoras em tempo de execução.
+Recebe artefatos de **`doutrina-content`** e enriquece com âncoras de provedores (`data-link-provider`, …). O shell lê essas âncoras em tempo de execução.
 
 ## 🎯 Público
 
@@ -111,8 +120,13 @@ Recebe artefatos de **`doutrina-content`** e enriquece com âncoras de provedore
 ## 🚧 Estado
 
 1. Contrato do pipeline documentado.  
-2. Scripts migrando de ferramentas ad hoc para este repo.  
-3. Enquanto isso, livros em `librus-shell` são o consumidor de trabalho.  
+2. Regras: [METHODOLOGY.md](./METHODOLOGY.md).  
+3. Scripts migrando de ferramentas ad hoc para este repo.  
+4. Enquanto isso, livros em `librus-shell` são o consumidor de trabalho. O inject atual da LDE é denso em dicionário e **ainda não** segue o mix.
+
+## 📐 Metodologia
+
+Ver [METHODOLOGY.md](./METHODOLOGY.md): Luz → Wikipédia → Wikcionário limitado; Bíblia só na linha de citação; Kardecpedia só para obras fora das cinco.
 
 ## 🤝 Como ajudar
 

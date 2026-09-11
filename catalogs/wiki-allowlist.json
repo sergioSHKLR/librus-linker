@@ -1,0 +1,1045 @@
+[
+  {
+    "title": "Abraão",
+    "lemmas": [
+      "Abraão"
+    ],
+    "books": [
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "Adão",
+    "lemmas": [
+      "Adão"
+    ],
+    "books": [
+      "ceu",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "Almeida Revista e Corrigida",
+    "lemmas": [
+      "Almeida Revista e Corrigida",
+      "ARC"
+    ],
+    "books": [
+      "lde"
+    ]
+  },
+  {
+    "title": "André (apóstolo)",
+    "lemmas": [
+      "André (apóstolo)",
+      "André"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "title": "Antônio Félix",
+    "lemmas": [
+      "Antônio Félix",
+      "Félix"
+    ],
+    "books": [
+      "ceu"
+    ]
+  },
+  {
+    "title": "Apocalipse",
+    "lemmas": [
+      "Apocalipse"
+    ],
+    "books": [
+      "ceu"
+    ]
+  },
+  {
+    "title": "Ateísmo",
+    "lemmas": [
+      "Ateísmo",
+      "ateus",
+      "ateu",
+      "ateísmo"
+    ],
+    "books": [
+      "ceu",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Augusto",
+    "lemmas": [
+      "Augusto",
+      "augusto"
+    ],
+    "books": [
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "title": "Benjamin Franklin",
+    "lemmas": [
+      "Benjamin Franklin",
+      "Franklin"
+    ],
+    "books": [
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Bíblia",
+    "lemmas": [
+      "Bíblia"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "Budismo",
+    "lemmas": [
+      "Budismo"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "title": "Caifás",
+    "lemmas": [
+      "Caifás"
+    ],
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "Carlos Magno",
+    "lemmas": [
+      "Carlos Magno"
+    ],
+    "books": [
+      "ceu",
+      "lde"
+    ]
+  },
+  {
+    "title": "Catolicismo",
+    "lemmas": [
+      "Catolicismo",
+      "católicos",
+      "católico"
+    ],
+    "books": [
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Charles Darwin",
+    "lemmas": [
+      "Charles Darwin"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Codificação Espírita",
+    "lemmas": [
+      "Codificação Espírita",
+      "Codificação espírita"
+    ],
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "Cristianismo",
+    "lemmas": [
+      "cristão",
+      "Cristianismo",
+      "cristãos"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Davi",
+    "lemmas": [
+      "Davi"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "title": "Decálogo",
+    "lemmas": [
+      "Decálogo",
+      "decálogo",
+      "dez mandamentos"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "Deísmo",
+    "lemmas": [
+      "Deísmo",
+      "deísmo"
+    ],
+    "books": [
+      "ceu",
+      "gen"
+    ]
+  },
+  {
+    "title": "Dilúvio",
+    "lemmas": [
+      "Dilúvio",
+      "dilúvio",
+      "dilúvio universal",
+      "DILÚVIO UNIVERSAL"
+    ],
+    "books": [
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Dualismo",
+    "lemmas": [
+      "Dualismo",
+      "dualismo"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "title": "Éden",
+    "lemmas": [
+      "Éden",
+      "paraíso terrestre"
+    ],
+    "books": [
+      "ceu",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "Elias",
+    "lemmas": [
+      "Elias"
+    ],
+    "books": [
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "Emanuel Swedenborg",
+    "lemmas": [
+      "Emanuel Swedenborg",
+      "Swedenborg"
+    ],
+    "books": [
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Escolástica",
+    "lemmas": [
+      "Escolástica",
+      "escolástica"
+    ],
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "Escriba",
+    "lemmas": [
+      "Escriba",
+      "escribas",
+      "Escribas"
+    ],
+    "books": [
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Essênios",
+    "lemmas": [
+      "essênios",
+      "Essênios",
+      "essênio"
+    ],
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "Eva",
+    "lemmas": [
+      "Eva"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "title": "Êxodo",
+    "lemmas": [
+      "Êxodo"
+    ],
+    "books": [
+      "ceu",
+      "ese"
+    ]
+  },
+  {
+    "title": "Ezequiel",
+    "lemmas": [
+      "Ezequiel"
+    ],
+    "books": [
+      "ceu"
+    ]
+  },
+  {
+    "title": "Fariseus",
+    "lemmas": [
+      "fariseus",
+      "fariseu",
+      "Fariseus"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Fatalismo",
+    "lemmas": [
+      "Fatalismo",
+      "fatalismo"
+    ],
+    "books": [
+      "ceu",
+      "gen"
+    ]
+  },
+  {
+    "title": "Fetichismo",
+    "lemmas": [
+      "Fetichismo",
+      "fetichismo"
+    ],
+    "books": [
+      "ceu"
+    ]
+  },
+  {
+    "title": "Filosofia",
+    "lemmas": [
+      "Filosofia",
+      "filosofia"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "François Fénelon",
+    "lemmas": [
+      "François Fénelon",
+      "Fénelon"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "George Washington",
+    "lemmas": [
+      "George Washington",
+      "Washington"
+    ],
+    "books": [
+      "lde"
+    ]
+  },
+  {
+    "title": "Herodes, o Grande",
+    "lemmas": [
+      "Herodes, o Grande",
+      "Herodes"
+    ],
+    "books": [
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "title": "Idolatria",
+    "lemmas": [
+      "idolatria",
+      "Idolatria"
+    ],
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "Isabel (mãe de João Batista)",
+    "lemmas": [
+      "Isabel (mãe de João Batista)",
+      "Isabel"
+    ],
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "Isaías",
+    "lemmas": [
+      "Isaías"
+    ],
+    "books": [
+      "ceu",
+      "ese"
+    ]
+  },
+  {
+    "title": "Islão",
+    "lemmas": [
+      "Islão",
+      "muçulmano",
+      "muçulmanos"
+    ],
+    "books": [
+      "ceu",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Jacó",
+    "lemmas": [
+      "Israel",
+      "Jacó",
+      "Jacob"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Jean-Jacques Rousseau",
+    "lemmas": [
+      "Jean-Jacques Rousseau",
+      "Rousseau"
+    ],
+    "books": [
+      "ldm"
+    ]
+  },
+  {
+    "title": "Jeremias",
+    "lemmas": [
+      "Jeremias"
+    ],
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "João Batista",
+    "lemmas": [
+      "João Batista"
+    ],
+    "books": [
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "João, o Apostolo",
+    "lemmas": [
+      "João, o Apostolo",
+      "João Evangelista",
+      "João, o Evangelista"
+    ],
+    "books": [
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "João, o Evangelista",
+    "lemmas": [
+      "João, o Evangelista",
+      "João"
+    ],
+    "books": [
+      "lde"
+    ]
+  },
+  {
+    "title": "José (pai de Jesus)",
+    "lemmas": [
+      "José (pai de Jesus)",
+      "José"
+    ],
+    "books": [
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "title": "Josué",
+    "lemmas": [
+      "Josué"
+    ],
+    "books": [
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Judaísmo",
+    "lemmas": [
+      "judeus",
+      "judeu",
+      "Judaísmo"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Judas Iscariotes",
+    "lemmas": [
+      "Judas Iscariotes",
+      "Judas"
+    ],
+    "books": [
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Julgamento final",
+    "lemmas": [
+      "Julgamento final",
+      "juízo final"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "title": "Júlio César",
+    "lemmas": [
+      "César",
+      "Júlio César"
+    ],
+    "books": [
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "Livre-arbítrio",
+    "lemmas": [
+      "Livre-arbítrio",
+      "livre-arbítrio"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Lucas, o Evangelista",
+    "lemmas": [
+      "Lucas, o Evangelista",
+      "Lucas"
+    ],
+    "books": [
+      "lde"
+    ]
+  },
+  {
+    "title": "Luís IX de França",
+    "lemmas": [
+      "Luís IX de França",
+      "São Luís",
+      "São Luís, IX de França"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Marcos, o Evangelista",
+    "lemmas": [
+      "Marcos, o Evangelista",
+      "Marcos"
+    ],
+    "books": [
+      "lde"
+    ]
+  },
+  {
+    "title": "Maria (mãe de Jesus)",
+    "lemmas": [
+      "Maria (mãe de Jesus)",
+      "Maria",
+      "Virgem Maria"
+    ],
+    "books": [
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Materialismo",
+    "lemmas": [
+      "materialismo",
+      "Materialismo"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Mateus (apóstolo)",
+    "lemmas": [
+      "Mateus (apóstolo)",
+      "Mateus"
+    ],
+    "books": [
+      "ceu",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Mateus, o Evangelista",
+    "lemmas": [
+      "Mateus, o Evangelista",
+      "Mateus"
+    ],
+    "books": [
+      "lde"
+    ]
+  },
+  {
+    "title": "Milagre",
+    "lemmas": [
+      "Milagre",
+      "milagres",
+      "milagre"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Moisés",
+    "lemmas": [
+      "Moisés",
+      "Gênesis",
+      "Êxodo"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Napoleão Bonaparte",
+    "lemmas": [
+      "Napoleão Bonaparte",
+      "Napoleão"
+    ],
+    "books": [
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Nicodemos",
+    "lemmas": [
+      "Nicodemos"
+    ],
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "Noé",
+    "lemmas": [
+      "Noé"
+    ],
+    "books": [
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Paulo de Tarso",
+    "lemmas": [
+      "Paulo de Tarso",
+      "Paulo",
+      "Paulo, apóstolo",
+      "São Paulo",
+      "Romanos"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Pedro (apóstolo)",
+    "lemmas": [
+      "Pedro (apóstolo)",
+      "Pedro",
+      "São Pedro"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Pierre-Simon Laplace",
+    "lemmas": [
+      "Pierre-Simon Laplace",
+      "Laplace"
+    ],
+    "books": [
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "Platão",
+    "lemmas": [
+      "Platão"
+    ],
+    "books": [
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "Platonismo",
+    "lemmas": [
+      "Platonismo",
+      "platônico"
+    ],
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "Politeísmo",
+    "lemmas": [
+      "Politeísmo",
+      "politeísmo"
+    ],
+    "books": [
+      "ceu",
+      "gen"
+    ]
+  },
+  {
+    "title": "Pôncio Pilatos",
+    "lemmas": [
+      "Pilatos",
+      "Pôncio Pilatos"
+    ],
+    "books": [
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "title": "Positivismo",
+    "lemmas": [
+      "Positivismo",
+      "positivismo"
+    ],
+    "books": [
+      "ceu",
+      "gen"
+    ]
+  },
+  {
+    "title": "Profecia",
+    "lemmas": [
+      "Profecia",
+      "profecia",
+      "profecias"
+    ],
+    "books": [
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "title": "Protestantismo",
+    "lemmas": [
+      "Protestantismo",
+      "protestante"
+    ],
+    "books": [
+      "ese",
+      "lde"
+    ]
+  },
+  {
+    "title": "Psicofonia",
+    "lemmas": [
+      "Psicofonia"
+    ],
+    "books": [
+      "ldm"
+    ]
+  },
+  {
+    "title": "Saduceus",
+    "lemmas": [
+      "saduceus",
+      "Saduceus"
+    ],
+    "books": [
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "title": "Salomão",
+    "lemmas": [
+      "Salomão"
+    ],
+    "books": [
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "title": "Samuel (profeta)",
+    "lemmas": [
+      "Samuel (profeta)",
+      "Samuel"
+    ],
+    "books": [
+      "ceu",
+      "ese"
+    ]
+  },
+  {
+    "title": "Santo Agostinho",
+    "lemmas": [
+      "Santo Agostinho",
+      "Agostinho"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Século XIX",
+    "lemmas": [
+      "Século XIX",
+      "século XIX"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Socialismo",
+    "lemmas": [
+      "Socialismo",
+      "socialismo"
+    ],
+    "books": [
+      "ceu"
+    ]
+  },
+  {
+    "title": "Sócrates",
+    "lemmas": [
+      "Sócrates"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Teosofia",
+    "lemmas": [
+      "Teosofia",
+      "teosofia"
+    ],
+    "books": [
+      "lde"
+    ]
+  },
+  {
+    "title": "Tiago, filho de Zebedeu",
+    "lemmas": [
+      "Tiago, filho de Zebedeu"
+    ],
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "title": "Tomé (apóstolo)",
+    "lemmas": [
+      "Tomé (apóstolo)",
+      "Tomé"
+    ],
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Trindade",
+    "lemmas": [
+      "Trindade",
+      "trindade"
+    ],
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "Vicente de Paulo",
+    "lemmas": [
+      "São Vicente de Paulo",
+      "Vicente de Paulo"
+    ],
+    "books": [
+      "ese",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "Zacarias (pai de João Batista)",
+    "lemmas": [
+      "Zacarias (pai de João Batista)",
+      "Zacarias"
+    ],
+    "books": [
+      "gen"
+    ]
+  }
+]
