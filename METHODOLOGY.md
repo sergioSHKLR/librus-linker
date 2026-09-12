@@ -104,9 +104,9 @@ Only inside `.bible-block` / `.bible-cite`, split as today:
 | Token | Provider |
 |-------|----------|
 | Book name (Mateus, João, Gênesis) | Wikipedia |
-| Chapter | Wikipedia chapter page |
-| **Verse number(s)** | Bible.com ARC (`bible.com/pt/bible/212/…ARC`) |
-| Translation label (ARC) | Wikipedia |
+| **cap. N** (label includes `cap.`) | Wikipedia chapter page |
+| **vers. N** (label includes `vers.`) | Bible.com ARC (`bible.com/pt/bible/212/…ARC`) |
+| Translation label (ARC) | Bible.com version page (`/pt/versions/212-arc-…`) |
 
 The verse token is the only `data-link-provider="bible"` on that line.
 

@@ -67,6 +67,7 @@ doutrina-content  →  librus-linker  →  librus-shell  →  host Pages
 2. Provider rules: [METHODOLOGY.md](./METHODOLOGY.md) (Luz → wiki → dict → Bible cites; Kardecpedia off-shelf only).  
 3. Injection scripts continue to land as they are split out of ad-hoc tooling.  
 4. Restamp: `python3 scripts/restamp.py` (Luz → map → wiki → capped dict; Bible cites). Consumes `catalogs/*.json` and writes `librus-shell/public/books/{lde,ldm,ese,ceu,gen}`.  
+5. Bible cites (2026-09-12): book → Wikipedia; **cap. N** (label includes `cap.`) → Wikipedia chapter; **vers. N** → Bible.com ARC verse; **ARC** → Bible.com version page. Verse regex must not swallow `A` from ARC. Spirit signature last lines drop `<strong>`. The shell must load the stamped `href` (not re-search the label).  
 
 ## 📐 Methodology
 
@@ -122,7 +123,8 @@ Recebe artefatos de **`doutrina-content`** e enriquece com âncoras de provedore
 1. Contrato do pipeline documentado.  
 2. Regras: [METHODOLOGY.md](./METHODOLOGY.md).  
 3. Scripts migrando de ferramentas ad hoc para este repo.  
-4. Enquanto isso, livros em `librus-shell` são o consumidor de trabalho. O inject atual da LDE é denso em dicionário e **ainda não** segue o mix.
+4. Enquanto isso, livros em `librus-shell` são o consumidor de trabalho. O inject atual da LDE é denso em dicionário e **ainda não** segue o mix.  
+5. Cites (2026-09-12): livro → Wikipédia; **cap. N** → capítulo; **vers. N** → Bible.com ARC; **ARC** → página da versão no Bible.com. O regex do versículo não pode engolir o `A` de ARC. Assinaturas ✨ sem `<strong>`. O shell abre o `href` carimbado (não pesquisa o rótulo).
 
 ## 📐 Metodologia
 

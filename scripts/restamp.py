@@ -239,13 +239,17 @@ def normalize_cite_blob(text: str) -> str:
         text,
         flags=re.I,
     )
+    # Prior restamp ate “A” from ARC into the verse (e.g. “14, A, A, ARC”).
+    text = re.sub(r"(?:,\s*)?(?:A\s*,\s*)+ARC\b", " ARC", text, flags=re.I)
+    text = re.sub(r",?\s*A\.?\s*R\.?\s*C\.?\b", " ARC", text, flags=re.I)
     text = re.sub(r"\s+", " ", text).strip(" ,;")
     return text
 
 
 CITE_ONE = re.compile(
     r"(?P<book>[A-Za-zÁÉÍÓÚÂÊÔÃÕáéíóúâêôãõçÇ][A-Za-zÁÉÍÓÚÂÊÔÃÕáéíóúâêôãõçÇ\- ]*?)"
-    r",?\s*cap\.\s*(?P<ch>\d+)\s*[.,]?\s*vers\.\s*(?P<vs>[0-9\-–àa e,]+)",
+    r",?\s*cap\.\s*(?P<ch>\d+)\s*[.,]?\s*vers\.\s*"
+    r"(?P<vs>\d+(?:\s*[-–]\s*\d+)?(?:\s*(?:a|e|,)\s*\d+(?:\s*[-–]\s*\d+)?)*)",
     re.I,
 )
 
@@ -260,6 +264,7 @@ def render_one_cite(book: str, ch: str, vs: str) -> str | None:
     ch_n = str(int(ch))
     vs_disp = re.sub(r"\s+", " ", vs).strip(" .,;")
     vs_disp = vs_disp.replace(" a ", "-").replace(" e ", ", ")
+    vs_disp = re.sub(r"(?:,\s*)?\bA\b", "", vs_disp).strip(" ,;")
     v1 = first_verse(vs_disp)
     book_href = "https://pt.wikipedia.org/wiki/" + wiki
     ch_href = f"https://pt.wikipedia.org/wiki/{wiki.split(',')[0]}_{ch_n}"
@@ -283,13 +288,18 @@ def render_one_cite(book: str, ch: str, vs: str) -> str | None:
     }.get(code, wiki.split(",")[0])
     ch_href = f"https://pt.wikipedia.org/wiki/{ch_page}_{ch_n}"
     bib_href = f"https://www.bible.com/pt/bible/212/{code}.{ch_n}.{v1}.ARC"
-    arc_href = "https://pt.wikipedia.org/wiki/Almeida_Revista_e_Corrigida"
+    arc_href = (
+        "https://www.bible.com/pt/versions/212-arc-almeida-revista-e-corrigida"
+    )
     extra = ' data-bible-cite="1"'
     return (
         a_tag(book_href, "w", label, extra)
-        + f", cap. {a_tag(ch_href, 'w', ch_n, extra)}"
-        + f", vers. {a_tag(bib_href, 'bible', vs_disp, extra)}"
-        + f", {a_tag(arc_href, 'w', 'ARC', extra)}"
+        + ", "
+        + a_tag(ch_href, "w", f"cap. {ch_n}", extra)
+        + ", "
+        + a_tag(bib_href, "bible", f"vers. {vs_disp}", extra)
+        + ", "
+        + a_tag(arc_href, "bible", "ARC", extra)
     )
 
 
@@ -302,7 +312,7 @@ def rewrite_bible_block(block: str) -> str:
     if not body_m:
         return block
     prefix, inner, suffix = body_m.group(1), body_m.group(2), body_m.group(3)
-    ps = list(re.finditer(r"<p>(.*?)</p>", inner, re.S))
+    ps = list(re.finditer(r"<p(?:\s[^>]*)?>(.*?)</p>", inner, re.S))
     if not ps:
         return block
     last = ps[-1]
@@ -317,7 +327,7 @@ def rewrite_bible_block(block: str) -> str:
             parts.append(rendered)
     if not parts:
         return block
-    new_p = '<p><strong class="bible-cite">' + "; ".join(parts) + "</strong></p>"
+    new_p = '<p class="bible-cite">' + "; ".join(parts) + "</p>"
     inner2 = inner[: last.start()] + new_p + inner[last.end() :]
     return prefix + inner2 + suffix
 
@@ -331,7 +341,44 @@ def restamp_bible_blocks(html: str) -> str:
     )
 
 
+AUTHOR_LAST_P = re.compile(
+    r"^(?:\s*<strong>.*?</strong>\s*(?:<br\s*/?>)?\s*)+$",
+    re.S,
+)
+
+
+def unwrap_spirit_authors(html: str) -> str:
+    """Drop **bold** on spirit signature lines (last p is only <strong> names)."""
+
+    def one(m: re.Match) -> str:
+        prefix, inner, suffix = m.group(1), m.group(2), m.group(3)
+        ps = list(re.finditer(r"<p(?:\s[^>]*)?>(.*?)</p>", inner, re.S))
+        if not ps:
+            return m.group(0)
+        last = ps[-1]
+        inner_p = last.group(1).strip()
+        if inner_p.startswith("✨"):
+            return m.group(0)
+        if not (
+            AUTHOR_LAST_P.fullmatch(last.group(1)) or "<strong>" in last.group(1)
+        ):
+            return m.group(0)
+        new_p = "<p>" + re.sub(r"</?strong>", "", last.group(1)) + "</p>"
+        inner2 = inner[: last.start()] + new_p + inner[last.end() :]
+        return prefix + inner2 + suffix
+
+    return re.sub(
+        r'(<div class="spirit-block"><div class="spirit-body">)(.*?)(</div></div>)',
+        one,
+        html,
+        flags=re.S,
+    )
+
+
 def bound_start(text: str, i: int) -> bool:
+    """True only at the start of a word — never on space, dash, or emoji."""
+    if i >= len(text) or not WORD.match(text[i]):
+        return False
     if i == 0:
         return True
     return not WORD.match(text[i - 1])
@@ -386,11 +433,14 @@ def stamp_text(
                 j += 1
             tok = src[i:j]
             ft = fold(tok)
+            already = any(lemma == ft for _, lemma in used)
             if (
                 j > i
+                and WORD.match(src[i])
+                and tok == tok.strip()
                 and ft in dict_lemmas
                 and ft not in STOP
-                and ("d", ft) not in used
+                and not already
                 and dict_in_p[0] < 2
             ):
                 href = "https://pt.wiktionary.org/wiki/" + quote(tok, safe="")
@@ -516,6 +566,7 @@ def restamp(html: str) -> str:
     index = load_index()
     html = unwrap_providers(html)
     html = restamp_bible_blocks(html)
+    html = unwrap_spirit_authors(html)
     html = stamp_html(html, index, dict_lemmas)
     html = drop_excess_dict(html, 0.33)
     return html
