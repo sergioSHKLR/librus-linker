@@ -84,9 +84,13 @@ Bible **chapter** wiki pages (*Mateus 13*) stay on the cite line only — not in
 
 Same once-per-section cap for a given article.
 
-### 3.4 Wiktionary (`d`) — remainder, capped
+### 3.4 Wiktionary (`d`) — remainder, capped, existence-checked
 
 Only if neither Luz nor wiki claimed it, and the word still helps study (not *disse*, *então*, *obra*).
+
+**Existence (librus-linker#1):** do not stamp a dict href unless `pt.wiktionary` has that page. Audit: `python3 scripts/audit_dict.py` batch-queries `action=query` (≤50 titles, `redirects=1`). Writes `catalogs/dict-allowlist.json` + `catalogs/dict-missing.json`. Restamp uses the allowlist canonical title (so `Providência` → `providência`; first letter is significant on Wiktionary). Conservative inflection only (`existências` → `existência`). No opensearch neighbor swaps (`espiritualista` is not `espiritualismo`). Pages without a Português section (`{{-pt-}}`) go on missing.
+
+Do **not** `HEAD` the article URL — MediaWiki soft-404s.
 
 **Balance (source lists are lopsided; dict must not flood):**
 

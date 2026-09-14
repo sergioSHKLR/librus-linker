@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import html as htmlmod
 import json
+import os
 import re
 import sys
 import unicodedata
@@ -13,7 +14,26 @@ from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
 CAT = ROOT / "catalogs"
-SHELL = Path("/home/user/dev/librus-shell/public/books")
+
+
+def find_shell_books() -> Path:
+    env = os.environ.get("LIBRUS_SHELL_BOOKS")
+    if env:
+        return Path(env)
+    candidates = [
+        ROOT.parent / "librus-shell" / "public" / "books",
+        Path("/home/sergioshklr/librus-shell/public/books"),
+        Path("/home/user/dev/librus-shell/public/books"),
+    ]
+    for p in candidates:
+        if p.exists():
+            return p
+    raise SystemExit(
+        "cannot find librus-shell/public/books (set LIBRUS_SHELL_BOOKS)"
+    )
+
+
+SHELL = find_shell_books()
 
 WORD = re.compile(r"[\wÀ-ÿ]")
 STOP = {
@@ -184,6 +204,33 @@ def extract_dict_lemmas(html: str) -> set[str]:
     return lemmas
 
 
+def load_dict_catalog() -> tuple[dict[str, str], set[str]]:
+    """fold(lemma) → canonical Wiktionary title; missing folds never stamp."""
+    mapping: dict[str, str] = {}
+    missing: set[str] = set()
+    miss_p = CAT / "dict-missing.json"
+    allow_p = CAT / "dict-allowlist.json"
+    if miss_p.exists():
+        for row in json.loads(miss_p.read_text(encoding="utf-8")):
+            missing.add(fold(row["title"]))
+            for lem in row.get("lemmas") or []:
+                missing.add(fold(lem))
+    if allow_p.exists():
+        for row in json.loads(allow_p.read_text(encoding="utf-8")):
+            title = row["title"]
+            for lem in [title] + list(row.get("lemmas") or []):
+                k = fold(lem)
+                if k not in missing:
+                    mapping[k] = title
+    return mapping, missing
+
+
+def dict_href(canon: str) -> str:
+    return "https://pt.wiktionary.org/wiki/" + quote(
+        canon.replace(" ", "_"), safe="_:"
+    )
+
+
 def unwrap_providers(html: str) -> str:
     def keep_link(tag: str) -> bool:
         href = re.search(r'href=["\']([^"\']+)["\']', tag)
@@ -196,7 +243,11 @@ def unwrap_providers(html: str) -> str:
             return True
         if "luzespirita" in h or "wiktionary" in h or "wikipedia.org" in h:
             return False
-        if "bible.com" in h or "openstreetmap" in h:
+        # Keep bible.com outside .bible-block (GEN cites). Blocks are rewritten
+        # from the last paragraph; unwrapping those hrefs would drop them.
+        if "bible.com" in h:
+            return True
+        if "openstreetmap" in h:
             return False
         if re.search(r'data-link-provider=', tag):
             return False
@@ -393,7 +444,8 @@ def bound_end(text: str, j: int) -> bool:
 def stamp_text(
     text: str,
     index: list[tuple[str, int, str, str, str]],
-    dict_lemmas: set[str],
+    dict_map: dict[str, str],
+    dict_missing: set[str],
     used: set[tuple[str, str]],
     dict_in_p: list[int],
 ) -> str:
@@ -433,19 +485,21 @@ def stamp_text(
                 j += 1
             tok = src[i:j]
             ft = fold(tok)
-            already = any(lemma == ft for _, lemma in used)
+            canon = dict_map.get(ft)
+            already = ("d", fold(canon)) in used if canon else False
             if (
                 j > i
                 and WORD.match(src[i])
                 and tok == tok.strip()
-                and ft in dict_lemmas
+                and canon
+                and ft not in dict_missing
                 and ft not in STOP
                 and not already
                 and dict_in_p[0] < 2
             ):
-                href = "https://pt.wiktionary.org/wiki/" + quote(tok, safe="")
+                href = dict_href(canon)
                 out.append(a_tag(href, "d", tok))
-                used.add(("d", ft))
+                used.add(("d", fold(canon)))
                 dict_in_p[0] += 1
                 i = j
                 continue
@@ -487,7 +541,12 @@ SKIP_TAGS = {
 }
 
 
-def stamp_html(html: str, index, dict_lemmas: set[str]) -> str:
+def stamp_html(
+    html: str,
+    index,
+    dict_map: dict[str, str],
+    dict_missing: set[str],
+) -> str:
     parts = re.split(r"(<[^>]+>)", html)
     stack: list[str] = []
     used: set[tuple[str, str]] = set()
@@ -533,7 +592,9 @@ def stamp_html(html: str, index, dict_lemmas: set[str]) -> str:
         if skipped():
             out.append(part)
         else:
-            out.append(stamp_text(part, index, dict_lemmas, used, dict_in_p))
+            out.append(
+                stamp_text(part, index, dict_map, dict_missing, used, dict_in_p)
+            )
     return "".join(out)
 
 
@@ -562,12 +623,16 @@ def drop_excess_dict(html: str, max_frac: float = 0.33) -> str:
 
 
 def restamp(html: str) -> str:
-    dict_lemmas = extract_dict_lemmas(html)
+    dict_map, dict_missing = load_dict_catalog()
+    if not dict_map:
+        for lem in extract_dict_lemmas(html):
+            if lem not in dict_missing:
+                dict_map[lem] = lem
     index = load_index()
     html = unwrap_providers(html)
     html = restamp_bible_blocks(html)
     html = unwrap_spirit_authors(html)
-    html = stamp_html(html, index, dict_lemmas)
+    html = stamp_html(html, index, dict_map, dict_missing)
     html = drop_excess_dict(html, 0.33)
     return html
 

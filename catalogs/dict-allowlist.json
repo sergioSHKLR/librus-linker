@@ -1,0 +1,2735 @@
+[
+  {
+    "title": "absoluto",
+    "lemmas": [
+      "absoluto"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "afeição",
+    "lemmas": [
+      "Afeição",
+      "afeição"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "ambição",
+    "lemmas": [
+      "ambição"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "ldm"
+    ]
+  },
+  {
+    "title": "anímico",
+    "lemmas": [
+      "anímica",
+      "anímico"
+    ],
+    "via": "inflection",
+    "books": [
+      "lde"
+    ]
+  },
+  {
+    "title": "aparição",
+    "lemmas": [
+      "aparição"
+    ],
+    "via": "exact",
+    "books": [
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "aparições",
+    "lemmas": [
+      "aparições"
+    ],
+    "via": "exact",
+    "books": [
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "apóstolo",
+    "lemmas": [
+      "apóstolo"
+    ],
+    "via": "exact",
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "apóstolos",
+    "lemmas": [
+      "Apóstolos",
+      "apóstolos"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "title": "arrependimento",
+    "lemmas": [
+      "arrependimento"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "astro",
+    "lemmas": [
+      "astro"
+    ],
+    "via": "exact",
+    "books": [
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "astros",
+    "lemmas": [
+      "Astros",
+      "astros"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "avareza",
+    "lemmas": [
+      "avareza"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu"
+    ]
+  },
+  {
+    "title": "axiomática",
+    "lemmas": [
+      "axiomática"
+    ],
+    "via": "exact",
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "title": "bondade",
+    "lemmas": [
+      "Bondade",
+      "bondade"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "cadáveres",
+    "lemmas": [
+      "cadáveres"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "gen"
+    ]
+  },
+  {
+    "title": "centelha",
+    "lemmas": [
+      "centelha"
+    ],
+    "via": "exact",
+    "books": [
+      "ese",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "centelhas",
+    "lemmas": [
+      "centelhas"
+    ],
+    "via": "exact",
+    "books": [
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "certeza",
+    "lemmas": [
+      "certeza"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "ciência",
+    "lemmas": [
+      "CIÊNCIA",
+      "Ciência",
+      "ciência"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "ciências",
+    "lemmas": [
+      "Ciências",
+      "ciências"
+    ],
+    "via": "exact",
+    "books": [
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "clarividência",
+    "lemmas": [
+      "clarividência"
+    ],
+    "via": "exact",
+    "books": [
+      "lde"
+    ]
+  },
+  {
+    "title": "clero",
+    "lemmas": [
+      "clero"
+    ],
+    "via": "exact",
+    "books": [
+      "ldm"
+    ]
+  },
+  {
+    "title": "cobiça",
+    "lemmas": [
+      "cobiça"
+    ],
+    "via": "exact",
+    "books": [
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "compaixão",
+    "lemmas": [
+      "compaixão"
+    ],
+    "via": "exact",
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "comunicação",
+    "lemmas": [
+      "comunicação"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "comunicações",
+    "lemmas": [
+      "Comunicações",
+      "comunicações"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "conclusão",
+    "lemmas": [
+      "conclusão"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "conhecimento",
+    "lemmas": [
+      "conhecimento"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "conhecimentos",
+    "lemmas": [
+      "conhecimentos"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "conjecturas",
+    "lemmas": [
+      "conjecturas"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu"
+    ]
+  },
+  {
+    "title": "conquanto",
+    "lemmas": [
+      "Conquanto",
+      "conquanto"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "consciência",
+    "lemmas": [
+      "consciência"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "corpóreo",
+    "lemmas": [
+      "corpórea",
+      "corpóreo"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "criador",
+    "lemmas": [
+      "Criador",
+      "criador"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "criatura",
+    "lemmas": [
+      "criatura",
+      "criaturas"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "criação",
+    "lemmas": [
+      "Criação",
+      "criação"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "culto",
+    "lemmas": [
+      "culto",
+      "cultos"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "cérebro",
+    "lemmas": [
+      "cérebro"
+    ],
+    "via": "exact",
+    "books": [
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "cólera",
+    "lemmas": [
+      "cólera"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "ldm"
+    ]
+  },
+  {
+    "title": "demônio",
+    "lemmas": [
+      "Demônio",
+      "demônio"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "demônios",
+    "lemmas": [
+      "demônios"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "desencarnada",
+    "lemmas": [
+      "desencarnada"
+    ],
+    "via": "exact",
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "title": "desencarnação",
+    "lemmas": [
+      "desencarnação"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "lde"
+    ]
+  },
+  {
+    "title": "desinteresse",
+    "lemmas": [
+      "desinteresse"
+    ],
+    "via": "exact",
+    "books": [
+      "ese",
+      "lde"
+    ]
+  },
+  {
+    "title": "destino",
+    "lemmas": [
+      "destino",
+      "destinos"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "dissidente",
+    "lemmas": [
+      "dissidente",
+      "dissidentes"
+    ],
+    "via": "inflection",
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "divina",
+    "lemmas": [
+      "divina"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "divino",
+    "lemmas": [
+      "divino"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "doutrina",
+    "lemmas": [
+      "Doutrina",
+      "doutrina"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "doutrinas",
+    "lemmas": [
+      "doutrinas"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "duvida",
+    "lemmas": [
+      "duvida"
+    ],
+    "via": "exact",
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "dúvida",
+    "lemmas": [
+      "dúvida"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "dúvidas",
+    "lemmas": [
+      "dúvidas"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "egoísmo",
+    "lemmas": [
+      "Egoísmo",
+      "egoísmo"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "lde"
+    ]
+  },
+  {
+    "title": "egoísta",
+    "lemmas": [
+      "egoísta"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "lde"
+    ]
+  },
+  {
+    "title": "encarnada",
+    "lemmas": [
+      "encarnada"
+    ],
+    "via": "exact",
+    "books": [
+      "gen"
+    ]
+  },
+  {
+    "title": "encarnações",
+    "lemmas": [
+      "encarnações"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "entretanto",
+    "lemmas": [
+      "Entretanto",
+      "entretanto"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "equidade",
+    "lemmas": [
+      "equidade"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "lde"
+    ]
+  },
+  {
+    "title": "erro",
+    "lemmas": [
+      "Erro",
+      "erro",
+      "erros"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "escritura",
+    "lemmas": [
+      "Escritura",
+      "escritura"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "gen"
+    ]
+  },
+  {
+    "title": "escrituras",
+    "lemmas": [
+      "Escrituras",
+      "escrituras"
+    ],
+    "via": "case",
+    "books": [
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "title": "esperança",
+    "lemmas": [
+      "esperança"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "lde"
+    ]
+  },
+  {
+    "title": "esquecimento",
+    "lemmas": [
+      "esquecimento"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "essência",
+    "lemmas": [
+      "essência"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "eternidade",
+    "lemmas": [
+      "eternidade"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "evidência",
+    "lemmas": [
+      "evidência"
+    ],
+    "via": "exact",
+    "books": [
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "existência",
+    "lemmas": [
+      "existência",
+      "existências"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "expiar",
+    "lemmas": [
+      "expiar"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "lde"
+    ]
+  },
+  {
+    "title": "expiação",
+    "lemmas": [
+      "expiação",
+      "expiações"
+    ],
+    "via": "inflection",
+    "books": [
+      "ceu",
+      "ese"
+    ]
+  },
+  {
+    "title": "faculdade",
+    "lemmas": [
+      "faculdade"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "faculdades",
+    "lemmas": [
+      "faculdades"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "fatalidade",
+    "lemmas": [
+      "fatalidade"
+    ],
+    "via": "exact",
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "felicidade",
+    "lemmas": [
+      "felicidade"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "fenômeno",
+    "lemmas": [
+      "Fenômeno",
+      "fenômeno"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "fenômenos",
+    "lemmas": [
+      "Fenômenos",
+      "fenômenos"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "fluídico",
+    "lemmas": [
+      "fluídico"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "fraternidade",
+    "lemmas": [
+      "fraternidade"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "fundamento",
+    "lemmas": [
+      "fundamento",
+      "fundamentos"
+    ],
+    "via": "exact",
+    "books": [
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "futilidade",
+    "lemmas": [
+      "futilidade",
+      "futilidades"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "fútil",
+    "lemmas": [
+      "fúteis",
+      "fútil"
+    ],
+    "via": "inflection",
+    "books": [
+      "ese",
+      "ldm"
+    ]
+  },
+  {
+    "title": "hipocrisia",
+    "lemmas": [
+      "hipocrisia"
+    ],
+    "via": "exact",
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "hipótese",
+    "lemmas": [
+      "hipótese"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "hipóteses",
+    "lemmas": [
+      "hipóteses"
+    ],
+    "via": "exact",
+    "books": [
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "humanidade",
+    "lemmas": [
+      "Humanidade",
+      "humanidade"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "humildade",
+    "lemmas": [
+      "humildade"
+    ],
+    "via": "exact",
+    "books": [
+      "ese",
+      "lde"
+    ]
+  },
+  {
+    "title": "ignorância",
+    "lemmas": [
+      "Ignorância",
+      "ignorância"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "imaterial",
+    "lemmas": [
+      "Imaterial",
+      "imaterial"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "imortal",
+    "lemmas": [
+      "imortal"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu"
+    ]
+  },
+  {
+    "title": "imortalidade",
+    "lemmas": [
+      "imortalidade"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "title": "imperfeição",
+    "lemmas": [
+      "imperfeição",
+      "imperfeições"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "incorpóreo",
+    "lemmas": [
+      "incorpóreo"
+    ],
+    "via": "exact",
+    "books": [
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "inferno",
+    "lemmas": [
+      "Inferno",
+      "inferno"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "infinito",
+    "lemmas": [
+      "Infinito",
+      "infinito"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "influência",
+    "lemmas": [
+      "influência",
+      "influências"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "infância",
+    "lemmas": [
+      "infância"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "injustiça",
+    "lemmas": [
+      "Injustiça",
+      "injustiça"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "title": "instinto",
+    "lemmas": [
+      "instinto",
+      "instintos"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "inteligência",
+    "lemmas": [
+      "Inteligência",
+      "inteligência",
+      "Inteligências",
+      "inteligências"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "intuição",
+    "lemmas": [
+      "intuição"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "inveja",
+    "lemmas": [
+      "inveja"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese"
+    ]
+  },
+  {
+    "title": "invisível",
+    "lemmas": [
+      "Invisível",
+      "invisível"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "invólucro",
+    "lemmas": [
+      "invólucro"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "justiça",
+    "lemmas": [
+      "Justiça",
+      "justiça"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "juventude",
+    "lemmas": [
+      "juventude"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese"
+    ]
+  },
+  {
+    "title": "liberdade",
+    "lemmas": [
+      "liberdade"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "linguagem",
+    "lemmas": [
+      "linguagem"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "luxúria",
+    "lemmas": [
+      "luxúria"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu"
+    ]
+  },
+  {
+    "title": "magnetismo",
+    "lemmas": [
+      "Magnetismo",
+      "magnetismo"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "maldade",
+    "lemmas": [
+      "maldade"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "manifestação",
+    "lemmas": [
+      "manifestação"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "manifestações",
+    "lemmas": [
+      "manifestações"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "matéria",
+    "lemmas": [
+      "Matéria",
+      "matéria"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "memória",
+    "lemmas": [
+      "memória"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "mentira",
+    "lemmas": [
+      "mentira",
+      "mentiras"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese"
+    ]
+  },
+  {
+    "title": "missão",
+    "lemmas": [
+      "missão",
+      "missões"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "miséria",
+    "lemmas": [
+      "miséria"
+    ],
+    "via": "exact",
+    "books": [
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "misérias",
+    "lemmas": [
+      "misérias"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "morais",
+    "lemmas": [
+      "morais"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "moral",
+    "lemmas": [
+      "moral"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "mérito",
+    "lemmas": [
+      "mérito"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "nascimento",
+    "lemmas": [
+      "Nascimento",
+      "nascimento"
+    ],
+    "via": "exact",
+    "books": [
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "natureza",
+    "lemmas": [
+      "Natureza",
+      "natureza"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "necessidade",
+    "lemmas": [
+      "necessidade"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "necessidades",
+    "lemmas": [
+      "necessidades"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "obsessão",
+    "lemmas": [
+      "obsessão",
+      "obsessões"
+    ],
+    "via": "inflection",
+    "books": [
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "orgulho",
+    "lemmas": [
+      "Orgulho",
+      "orgulho"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "outrossim",
+    "lemmas": [
+      "outrossim"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese"
+    ]
+  },
+  {
+    "title": "paixão",
+    "lemmas": [
+      "paixão"
+    ],
+    "via": "exact",
+    "books": [
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "title": "paixões",
+    "lemmas": [
+      "paixões"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "paraíso",
+    "lemmas": [
+      "Paraíso",
+      "paraíso"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "pensamento",
+    "lemmas": [
+      "pensamento"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "pensamentos",
+    "lemmas": [
+      "pensamentos"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "percepção",
+    "lemmas": [
+      "percepção"
+    ],
+    "via": "exact",
+    "books": [
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "perdão",
+    "lemmas": [
+      "perdão"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese"
+    ]
+  },
+  {
+    "title": "perfeição",
+    "lemmas": [
+      "perfeição",
+      "perfeições"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "perseverança",
+    "lemmas": [
+      "perseverança"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "piedade",
+    "lemmas": [
+      "piedade"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese"
+    ]
+  },
+  {
+    "title": "planeta",
+    "lemmas": [
+      "Planeta",
+      "planeta"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "planetas",
+    "lemmas": [
+      "planetas"
+    ],
+    "via": "exact",
+    "books": [
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "porquanto",
+    "lemmas": [
+      "Porquanto",
+      "porquanto"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "preceito",
+    "lemmas": [
+      "preceito"
+    ],
+    "via": "exact",
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "preceitos",
+    "lemmas": [
+      "preceitos"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "ldm"
+    ]
+  },
+  {
+    "title": "preconceitos",
+    "lemmas": [
+      "preconceitos"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "preguiça",
+    "lemmas": [
+      "preguiça"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese"
+    ]
+  },
+  {
+    "title": "princípio",
+    "lemmas": [
+      "princípio"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "princípios",
+    "lemmas": [
+      "Princípios",
+      "princípios"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "prodígio",
+    "lemmas": [
+      "prodígio",
+      "prodígios"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "profeta",
+    "lemmas": [
+      "profeta"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "title": "profetas",
+    "lemmas": [
+      "profetas"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "progresso",
+    "lemmas": [
+      "Progresso",
+      "progresso"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "prolixo",
+    "lemmas": [
+      "prolixo"
+    ],
+    "via": "exact",
+    "books": [
+      "ldm"
+    ]
+  },
+  {
+    "title": "provação",
+    "lemmas": [
+      "provação",
+      "provações"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "lde"
+    ]
+  },
+  {
+    "title": "providência",
+    "lemmas": [
+      "Providência",
+      "providência"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "purgatório",
+    "lemmas": [
+      "purgatório"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu"
+    ]
+  },
+  {
+    "title": "quintessência",
+    "lemmas": [
+      "quintessência"
+    ],
+    "via": "exact",
+    "books": [
+      "lde"
+    ]
+  },
+  {
+    "title": "recompensa",
+    "lemmas": [
+      "recompensa"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "recompensas",
+    "lemmas": [
+      "recompensas"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "reencarnação",
+    "lemmas": [
+      "reencarnação",
+      "reencarnações"
+    ],
+    "via": "inflection",
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "regeneração",
+    "lemmas": [
+      "regeneração"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese"
+    ]
+  },
+  {
+    "title": "relativo",
+    "lemmas": [
+      "relativo"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "title": "religiões",
+    "lemmas": [
+      "religiões"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "remorso",
+    "lemmas": [
+      "remorso",
+      "remorsos"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese"
+    ]
+  },
+  {
+    "title": "repositório",
+    "lemmas": [
+      "repositório"
+    ],
+    "via": "exact",
+    "books": [
+      "lde"
+    ]
+  },
+  {
+    "title": "repouso",
+    "lemmas": [
+      "repouso"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "sabedoria",
+    "lemmas": [
+      "Sabedoria",
+      "sabedoria"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "sacerdote",
+    "lemmas": [
+      "sacerdote",
+      "sacerdotes"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "sagrada",
+    "lemmas": [
+      "sagrada"
+    ],
+    "via": "exact",
+    "books": [
+      "ese",
+      "ldm"
+    ]
+  },
+  {
+    "title": "sagrado",
+    "lemmas": [
+      "sagrado"
+    ],
+    "via": "exact",
+    "books": [
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "satanás",
+    "lemmas": [
+      "Satanás",
+      "satanás"
+    ],
+    "via": "case",
+    "books": [
+      "ceu",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "Satã",
+    "lemmas": [
+      "Satã"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu"
+    ]
+  },
+  {
+    "title": "seita",
+    "lemmas": [
+      "seita",
+      "seitas"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "title": "sensação",
+    "lemmas": [
+      "sensação"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "sensações",
+    "lemmas": [
+      "sensações"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "sentimento",
+    "lemmas": [
+      "sentimento"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "sentimentos",
+    "lemmas": [
+      "sentimentos"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "sinceridade",
+    "lemmas": [
+      "sinceridade"
+    ],
+    "via": "exact",
+    "books": [
+      "ese",
+      "ldm"
+    ]
+  },
+  {
+    "title": "sobrenatural",
+    "lemmas": [
+      "sobrenatural"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "sociedade",
+    "lemmas": [
+      "Sociedade",
+      "sociedade",
+      "sociedades"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "sofrimento",
+    "lemmas": [
+      "sofrimento"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "sofrimentos",
+    "lemmas": [
+      "sofrimentos"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "solidariedade",
+    "lemmas": [
+      "solidariedade"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "solícito",
+    "lemmas": [
+      "solícito"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu"
+    ]
+  },
+  {
+    "title": "sonambulismo",
+    "lemmas": [
+      "Sonambulismo",
+      "sonambulismo"
+    ],
+    "via": "exact",
+    "books": [
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "sonho",
+    "lemmas": [
+      "sonho"
+    ],
+    "via": "exact",
+    "books": [
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "sonhos",
+    "lemmas": [
+      "Sonhos",
+      "sonhos"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "sonâmbulo",
+    "lemmas": [
+      "sonâmbulo"
+    ],
+    "via": "exact",
+    "books": [
+      "ldm"
+    ]
+  },
+  {
+    "title": "substância",
+    "lemmas": [
+      "substância"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "substâncias",
+    "lemmas": [
+      "substâncias"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "ternura",
+    "lemmas": [
+      "ternura"
+    ],
+    "via": "exact",
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "testemunho",
+    "lemmas": [
+      "testemunho"
+    ],
+    "via": "exact",
+    "books": [
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "testemunhos",
+    "lemmas": [
+      "testemunhos"
+    ],
+    "via": "exact",
+    "books": [
+      "ese"
+    ]
+  },
+  {
+    "title": "trabalho",
+    "lemmas": [
+      "trabalho"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "transe",
+    "lemmas": [
+      "transe"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu"
+    ]
+  },
+  {
+    "title": "túmulo",
+    "lemmas": [
+      "Túmulo",
+      "túmulo",
+      "túmulos"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "universo",
+    "lemmas": [
+      "Universo",
+      "universo"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "vaidade",
+    "lemmas": [
+      "vaidade"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "lde"
+    ]
+  },
+  {
+    "title": "velhice",
+    "lemmas": [
+      "velhice"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "gen"
+    ]
+  },
+  {
+    "title": "verdade",
+    "lemmas": [
+      "Verdade",
+      "verdade"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "verdades",
+    "lemmas": [
+      "verdades"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen"
+    ]
+  },
+  {
+    "title": "vigília",
+    "lemmas": [
+      "vigília"
+    ],
+    "via": "exact",
+    "books": [
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "virtude",
+    "lemmas": [
+      "Virtude",
+      "virtude"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "virtudes",
+    "lemmas": [
+      "virtudes"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "visível",
+    "lemmas": [
+      "visível"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "ldm"
+    ]
+  },
+  {
+    "title": "vontade",
+    "lemmas": [
+      "Vontade",
+      "vontade"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "vício",
+    "lemmas": [
+      "vício"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "vícios",
+    "lemmas": [
+      "vícios"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde"
+    ]
+  },
+  {
+    "title": "zelo",
+    "lemmas": [
+      "zelo"
+    ],
+    "via": "exact",
+    "books": [
+      "ese",
+      "lde"
+    ]
+  },
+  {
+    "title": "êxtase",
+    "lemmas": [
+      "êxtase"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "ódio",
+    "lemmas": [
+      "ódio"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "lde"
+    ]
+  },
+  {
+    "title": "órgão",
+    "lemmas": [
+      "órgão"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  },
+  {
+    "title": "órgãos",
+    "lemmas": [
+      "órgãos"
+    ],
+    "via": "exact",
+    "books": [
+      "ceu",
+      "ese",
+      "gen",
+      "lde",
+      "ldm"
+    ]
+  }
+]
